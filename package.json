@@ -2,7 +2,7 @@
   "name": "translate-allinone",
   "displayName": "translate-allinone",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "zzailianlian",
   "engines": {
     "vscode": "^1.77.0"
