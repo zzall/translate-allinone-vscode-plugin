@@ -70,7 +70,6 @@ class Translator {
  */
 function activate(context) {
   const tr = new Translator();
-  console.log('Translator()', Translator);
 
   function translateAndReplaceSelection() {
     const editor = vscode.window.activeTextEditor;
@@ -81,7 +80,6 @@ function activate(context) {
     const word = editor.document.getText(selection);
     tr.translate(word).then(result => {
       const finalText = JSON.parse(result)?.translation?.join('/n');
-      console.log('finalText', finalText);
       editor.edit(editBuilder => {
         editBuilder.replace(selection, finalText);
       });
@@ -130,4 +128,3 @@ function activate(context) {
 }
 
 exports.activate = activate;
-
