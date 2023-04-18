@@ -19,9 +19,13 @@ jobs:
       - name: Install
         run: |
           npm install
+          
+      - name: Publish
+        run: |
+          npx vsce publish -p ${{ secrets.PUBLISHER_TOKEN_SECOND }}
 
-      - name: Publish VS Code Extension
-        uses: HaaLeo/publish-vscode-extension@v1
-        with:
-          # Personal access token
-          pat: ${{ secrets.PUBLISHER_TOKEN }}
+#       - name: Publish VS Code Extension
+#         uses: HaaLeo/publish-vscode-extension@v1
+#         with:
+#           # Personal access token
+#           pat: ${{ secrets.PUBLISHER_TOKEN }}
