@@ -22,7 +22,7 @@ jobs:
           
       - name: Publish
         run: |
-          npx vsce publish -p ${{ secrets.PUBLISHER_TOKEN }}
+          npx vsce publish -p ${{ secrets.PUBLISHER_TOKEN_SECOND }}
 
 #       - name: Publish VS Code Extension
 #         uses: HaaLeo/publish-vscode-extension@v1
