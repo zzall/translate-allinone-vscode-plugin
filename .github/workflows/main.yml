@@ -22,5 +22,5 @@ jobs:
         
       - name: publish vscode-plugin-marketplace
         run: |
-          npm run publish:package
+          vsce publish -p 5stsj3ebtg67tbl6tplw6l2yttor2ab7k6bd6kyele54flzbqygq
 
