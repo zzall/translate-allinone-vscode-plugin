@@ -1,9 +1,10 @@
 {
   "name": "translate-allinone",
-  "displayName": "translate-allinone",
+  "displayName": "Translate Allinone",
   "description": "",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "publisher": "zzailianlian",
+  "icon": "icons/icon.png",
   "engines": {
     "vscode": "^1.77.0"
   },
