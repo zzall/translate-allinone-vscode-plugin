@@ -19,20 +19,8 @@ jobs:
       - name: Install
         run: |
           npm install
-        
-#       - name: publish vscode-plugin-marketplace
-#         run: |
-#           vsce publish -p 5stsj3ebtg67tbl6tplw6l2yttor2ab7k6bd6kyele54flzbqygq
-
-      - name: echo-test
-        run: |
-          echo 打印开始
-          ls
-          echo 打印完毕
 
       - name: Publish VS Code Extension
-      # You may pin to the exact commit or the version.
-      # uses: HaaLeo/publish-vscode-extension@a7981039f3dd0bd407a71c10b11f3cb79cb249d4
         uses: HaaLeo/publish-vscode-extension@v1
         with:
           # Personal access token
