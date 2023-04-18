@@ -35,3 +35,5 @@
 1. 选中内容
 2. 键入`shift + command + p`调出vscode命令看板
 3. 选择`translateAndReplaceSelection`即可自动把划线内容转成中文
+
+
