@@ -2,7 +2,7 @@
   "name": "translate-allinone",
   "displayName": "Translate Allinone",
   "description": "翻译vscode插件，集合划线翻译，中文转英文小驼峰命名，中文替换等功能",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "publisher": "zzailianlian",
   "icon": "icons/icon.png",
   "engines": {
